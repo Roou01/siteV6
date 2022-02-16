@@ -2067,7 +2067,6 @@ ul {
 @media (max-width: 959px) {
   .mainsection-mobile_button {
     position: relative;
-    z-index: 50;
     height: 10rem;
     display: flex;
     align-items: center;
