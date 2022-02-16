@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Алексей Котенко</title>
+    <link rel="icon" href="media/fav.ico" type="ico">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+<!-------------------HEADER------------------->
+
+    <header class="main-header" id="top" >
+      <div class="menu-icon">
+        <span></span>
+      </div>
+      <div class="main-header_container">
+        
+        <div class="main-header_container-circles">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+        </div>
+
+        <div class="main-header_container_logo ">
+        <p>Алексей Котенко</p>
+        </div>
+        <nav class="main-header_container_nav">
+          <ul class="main-header_container_nav-list">
+            <li class="main-header_container_nav-list-items" id="for-who">
+              <a href="#main-header" id="for-who">Кому полезно</a>
+              </li>
+            <li class="main-header_container_nav-list-items">
+            <a href="#get-section" id="you-get">Вы получаете</a>
+            </li>
+            <li class="main-header_container_nav-list-items">
+            <a href="#analisys-section" id="analisys-link">В основе анализа</a>
+            </li>
+            <li class="main-header_container_nav-list-items">
+            <a href="#order-section" id="order-link">Как заказать услугу</a>
+            </li>
+            <li class="main-header_container_nav-list-items">
+              <a href="#about-section" id="about-link">Обо мне</a>
+            </li>
+            <li class="main-header_container_nav-list-items">
+              <a href="#feedback-section" id="testimonial-link">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-header_container_lang">
+        <a href="indexUA.html">RU &#124 UA</a>
+        </div>
+      <div class="main-header_container_phone">
+          <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/20/000000/external-phone-phone-dreamstale-lineal-dreamstale.png"/>
+          <p>+38 (067) 548-29-43</p>
+      </div>
+      </div>
+    </header>
+
+<!-------------------FORMS------------------->
+
+<!-- ----------------------------------- -->
+<div class="backdrop invisible"></div>
+
+<!-- ----------------------------------- -->
+<form action="#" class="consalt-desktop invisible">
+  <div class="consalt-close-btn close-btn" ></div>
+  <h2>Заказать консультацию</h2>
+  <input type="text" name="consalt-desktop-name" id="consalt-desktop-name" placeholder="Введите имя" required>
+  <input type="tel" name="consalt-desktop-phone" id="consalt-desktop-phone" placeholder="Введите номер телефона" required>
+  <input type="email" name="consalt-desktop-email" id="consalt-desktop-email" placeholder="Введите e-mail" required>
+  
+  <div class="main-section_button">
+    <p>отправить</p>
+    <button type="submit">
+      <div class="circle"></div>
+      <div class="arrow"></div>
+    </button>
+  </div>
+  
+
+  <div class="question-section_form-desktop-agreement">
+    <input type="checkbox" id="consalt-desktop-agreement" name="consalt-desktop-agreement" required>
+    <label for="consalt-desktop-agreement"> Даю согласие на обработку данных </label>
+  </div>
+</form>
+
+<form action="#" class="consalt-mobile invisible">
+  <div class="consalt-close-btn close-btn" ></div>
+  <h2>Заказать консультацию</h2>
+  <input type="text" name="consalt-mobile-name" id="consalt-mobile-name" placeholder="Введите имя" required>
+  <input type="tel" name="consalt-mobile-phone" id="consalt-mobile-phone" placeholder="Введите номер телефона" required>
+  <input type="email" name="consalt-mobile-email" id="consalt-mobile-email" placeholder="Введите e-mail" required>
+    
+  <div class="mainsection-mobile_button bottom-btn" id="consalt-mobile-btn">
+    <p class="main-btn-par">Отправить</p>
+      <button type="submit">
+        <div class="circle"></div>
+        <div class="arrow"></div>
+      </button>
+  </div>
+
+   <div class="question-section_form-mobile-agreement">
+    <input type="checkbox" id="consalt-mobile-agreement" name="consalt-mobile-agreement" required>
+    <label for="consalt-mobile-agreement"> Даю согласие на обработку данных </label>
+  </div>
+</form>
+
+<!-- ----------------------------------- -->
+<div class="table invisible">
+  <div class="table-btn close-btn"></div>
+  <img class="table-desktop-img" src="media/illustrations/table.svg" alt="table-img">
+  <img class="table-mobile-img" src="media/illustrations/tablemob.svg" alt="table-img">
+</div>
+
+
+<form action="#" class="send-data invisible">
+  <div class="send-data-close-btn close-btn" ></div>
+  <h2>Отправить данные</h2>
+  <fieldset class="user-data">
+    <p>Ваши данные</p>
+    <div class="user-date">
+      <input type="number" name="user-day" id="user-day" placeholder="Число" required>
+      <input type="number" name="user-month" id="user-month" placeholder="Месяц" required>
+      <input type="number" name="user-year" id="user-year" placeholder="Год" required>
+      <input type="text" name="user-city" id="user-city" placeholder="Город" required>
+    </div>
+    <input class="send-input" type="text" name="user-name" id="user-name" placeholder="Введите имя" required>
+    <input class="send-input" type="tel" name="user-phone" id="user-phone" placeholder="Введите номер телефона" required>
+    <input class="send-input" type="email" name="user-email" id="user-email" placeholder="Введите e-mail" required>
+  </fieldset>
+
+  <fieldset class="partner-data">
+    <div class="partner-date">
+      <p>Данные партнера</p>
+      <input type="number" name="partner-day" id="partner-day" placeholder="Число" required>
+      <input type="number" name="partner-month" id="partner-month" placeholder="Месяц" required>
+      <input type="number" name="partner-year" id="partner-year" placeholder="Год" required>
+      <input type="text" name="partner-city" id="partner-city" placeholder="Город" required>
+    </div>
+    <input class="send-input partner-date-input" type="text" name="parner-name" id="parner-name" placeholder="Введите имя" required>
+  </fieldset>
+  <div class="main-section_button send-data-form">
+    <p>отправить</p>
+    <button type="submit">
+      <div class="circle"></div>
+      <div class="arrow"></div>
+    </button>
+  </div>
+  <div class="question-section_form-desktop-agreement">
+    <input type="checkbox" id="user-agreement" name="user-agreement" required>
+    <label for="user-agreement"> Даю согласие на обработку данных </label>
+  </div>
+ </form>
+
+
+<form action="#" class="send-data-mobile invisible">
+  <div class="send-data-close-btn close-btn" ></div>
+  <h2>Отправить данные</h2>
+  <fieldset class="user-data">
+    <input class="send-input" type="text" name="send-data-mobile-name" id="send-data-mobile-name" placeholder="Введите имя" required>
+    <input class="send-input" type="tel" name="send-data-mobile-phone" id="send-data-mobile-phone" placeholder="Введите номер телефона" required>
+    <input class="send-input" type="email" name="send-data-mobile-email" id="send-data-mobile-email" placeholder="Введите e-mail" required>
+    <p class="user-data__text">Напишите Ваши данные и партнера: дата, год, город рождения. Если известно - время рождения. </p>
+    <textarea rows="4" name="send-data-mobile-message" id="send-data-mobile-message" placeholder="Введите данные" required></textarea>
+  </fieldset>
+
+  <div class="mainsection-mobile_button send-data-form">
+    <p class="main-btn-par">Отправить<br> данные</p>
+      <button type="submit">
+        <div class="circle"></div>
+        <div class="arrow"></div>
+      </button>
+  </div>
+  <div class="question-section_form-mobile-agreement">
+    <input type="checkbox" id="send-data-mobile-agreement" name="send-data-mobile-agreement" required>
+    <label for="send-data-mobile-agreement"> Даю согласие на обработку данных </label>
+  </div>
+</form>
+
+<!-- ----------------------------------- -->
+<form action="#" class="callback-desktop invisible">
+  <div class="callback-close-btn close-btn"></div>
+  <h2>Обратный звонок</h2>
+  <input type="text" name="callback-user-name" id="callback-user-name" placeholder="Введите имя" required>
+  <input type="tel" name="callback-user-phone" id="callback-user-phone" placeholder="Введите номер телефона" required>
+   
+  <div class="main-section_button send-data-form">
+    <p>отправить</p>
+    <button type="submit">
+     <div class="circle"></div>
+      <div class="arrow"></div>
+    </button>
+  </div>
+
+  <div class="question-section_form-desktop-agreement">
+    <input type="checkbox" id="agreement" name="agreement" required>
+    <label for="agreement"> Даю согласие на обработку данных </label>
+  </div>
+</form>
+
+<div class="callback-wrapper invisible">
+  <form action="#" class="callback-mobile ">
+  <div class="callback-close-btn close-btn"></div>
+  <h2>Обратный звонок</h2>
+  <input type="text" name="callback-user-name" id="callback-user-name" placeholder="Введите имя" required>
+  <input type="tel" name="callback-user-phone" id="callback-user-phone" placeholder="Введите номер телефона" required>
+ 
+  <div class="mainsection-mobile_button bottom-btn" >
+    <p class="main-btn-par">Отправить</p>
+      <button type="submit">
+        <div class="circle"></div>
+        <div class="arrow"></div>
+      </button>
+  </div>
+
+<div class="question-section_form-mobile-agreement">
+  <input type="checkbox" id="agreement" name="agreement">
+  <label for="agreement"> Даю согласие на обработку данных </label>
+</div>
+
+  </form>
+</div>
+
+ <!-------------------UP BUTTON------------------->
+
+ <a href="#top" class="up-button invisible">
+   <div class="up-button_circle"></div>
+   <div class="up-button_arrow"></div>
+   <p>Вверх</p>
+ </a>
+
+ <!-------------------SUCSESS POPUP------------------->
+<div class="sucsess invisible">
+
+  <button type="close" class="consalt-close-btn close-btn" ></button>
+  <img src="media/illustrations/Line1.svg" alt="line" class="sucsess__line">
+  <img src="media/popups/succsesPic.svg" alt="sucssesPic" class="sucsess__img">
+  <p>Отправлено!</p>
+</div>
+
+
+
+<!-------------------MAIN SECTION------------------->
+
+<section class="mainsection-mobile" id="main-section">
+
+  <div class="mainsection-mobile_circle-container">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+  </div>
+
+  <div class="mainsection-mobile_info">
+    <div class="mainsection-mobile_info-text">
+      <div class="header">
+        <h1>Анализ качества <br> и перспективы <span>отношений</span></h1>
+        <h2>для тех, кто ценит время</h2>
+      </div>
+    </div>
+
+    <div class="mainsection-mobile_info-photo">
+      <div class="img-main">
+        <img src="media/photo/1small.png" alt="Алексей Котенко">
+      </div>
+      <div class="text">
+        <h2>Алексей Котенко</h2>
+        
+      </div>
+                     
+    </div>
+  </div>
+
+  <div class="mainsection-mobile_button bottom-btn consultaion-form" id="main-order-btn">
+    <p class="main-btn-par">Заказать<br> консультацию</p>
+      <button id="consbut">
+        <div class="circle"></div>
+        <div class="arrow"></div>
+      </button>
+  </div>
+<div class="forwho-margin" id="main-header">
+  <div class="mainsection-mobile_forwho forwho-margin" >
+    <h2>Услуга полезна <br> <span>тем, кто:</span></h2>
+    <div class="mainsection-mobile_forwho-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+</div>
+  <div class="text-holder">
+    <div class="text-holder_1">
+      <div class="text-img1"></div>
+      <p>Начинает или развивает отношения</p>
+        <ul>
+          <li><span>Знакомство</span> </li>
+          <li><span>Совместное проживание</span></li>
+          <li><span>Вступление в брак</span></li>
+          <li><span>Планирование детей</span></li>
+        </ul>
+    </div>
+    <div class="text-holder_2">
+    <div class="text-img2"></div>
+    <p>Столкнулся в отношениях с трудностями</p>
+      <ul>
+        <li><span>Конфликты</span></li>
+        <li><span>Отсутствие теплоты и взаимопонимания</span></li>
+        <li><span>Сексуальное охлаждение, любовные треугольники</span></li>
+         <li><span>Ощущение давления и обесценивание партнерa</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="main-section mainsection-desktop" id="main-section">
+
+  <div class="main-section_circle-container">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+  </div>
+
+  <div class="main-section_info">
+    <div class="main-section_info-text">
+      <div class="header">
+        <h1>Анализ качества <br> и перспективы <span>отношений</span></h1>
+        <h2>нужен тем, кто:</h2>
+      </div>
+      <div class="text-holder">
+        <div class="text-holder_1">
+          <div class="text-img1"></div>
+          <p>Начинает или развивает <br> отношения</p>
+            <ul>
+              <li><span>Знакомство</span> </li>
+              <li><span>Совместное проживание</span></li>
+              <li><span>Вступление в брак</span></li>
+              <li><span>Планирование детей</span></li>
+            </ul>
+        </div>
+        <div class="text-holder_2">
+        <div class="text-img2"></div>
+        <p>Столкнулся в отношениях <br>с трудностями</p>
+          <ul>
+            <li><span>Конфликты</span></li>
+            <li><span>Отсутствие теплоты и взаимопонимания</span></li>
+            <li><span>Сексуальное охлаждение, любовные треугольники</span></li>
+             <li><span>Ощущение давления и обесценивание партнерa</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-section_info-photo">
+      <div class="img-main">
+        <img src="media/photo/1small.png" alt="Алексей Котенко">
+      </div>
+      <div class="text">
+        <h2>Алексей Котенко</h2>
+        <p>Астролог, организатор и преподаватель <br>Школы Астрологии Шестопалова </p>
+      </div>
+                     
+    </div>
+  </div>
+
+  <div class="main-section_button bottom-btn consultaion-form" id="main-order-btn">
+          <p>Заказать консультацию</p>
+          <button >
+            <div class="circle"></div>
+            <div class="arrow"></div>
+          </button>
+  </div>
+
+ 
+</section>
+
+<!-------------------SECTION GET------------------->
+
+<section class="get-section" id="get-section">
+  <div class="get-section_img">
+    <img src="media/illustrations/Line22.png" alt="decorline">
+  </div>
+
+  <div class="get-section_header header-margin">
+    <h2>Вы получаете</h2>
+    <div class="get-section_header-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+
+    <div class="mainsection-mobile_forwho forwho-margin">
+    <h2>Вы получаете</h2>
+    <div class="mainsection-mobile_forwho-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+    </div>
+
+  <div class="get-section_text get-section_desktop"> 
+  <div class="point">
+    <div class="img1"></div>
+    <p>Анализ взаимодействия с партнером по важнейшим блокам</p>
+  </div>
+  <div class="point">
+    
+    <p>Оценку перспективы отношений</p>
+    <div class="img2"></div>
+  </div>
+  <div class="point">
+    <div class="img3"></div>
+    <p>Сильные и слабые стороны союза</p>
+  </div>
+  <div class="point">
+    
+    <p>Лучше узнаете своего партнера</p>
+    <div class="img4"></div>
+  </div>
+  </div>
+
+  <div class="get-section_text get-section_mobile"> 
+  <div class="point">
+    <div class="img1"></div>
+    <p>Анализ взаимодействия с партнером по важнейшим блокам</p>
+  </div>
+  <div class="point">
+    <div class="img2"></div>
+    <p>Оценку перспективы отношений</p>
+  </div>
+  <div class="point">
+    <div class="img3"></div>
+    <p>Сильные и слабые стороны союза</p>
+  </div>
+  <div class="point">
+    <div class="img4"></div>
+    <p>Лучше узнаете своего партнера</p>
+  </div>
+  </div>
+
+ 
+  <div class="main-section_button main-section_button-desktop consultaion-form">
+    <p>Заказать консультацию</p>
+    <button>
+      <div class="circle"></div>
+      <div class="arrow"></div>
+    </button>
+  </div>
+  <div class="mainsection-mobile_button bottom-btn consultaion-form" id="main-order-btn">
+    <p class="main-btn-par">Заказать<br> консультацию</p>
+      <button >
+        <div class="circle"></div>
+        <div class="arrow"></div>
+      </button>
+  </div>
+  
+</section>
+
+<!-------------------SECTION ANALISYS------------------->
+<div class="analisys-wrapper" id="analisys-section"></div>
+<section class="analisys-section-desktop">
+
+<div class="analisys-section-desktop_circle-contaniner">
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+  <div class="circle3"></div>
+</div>
+
+  <div class="get-section_header">
+    <h2>В основе анализа</h2>
+    <div class="get-section_header-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+
+  <div class="analisys-section-desktop_text">
+    <p class="main-paragraph">Авторская концепция Шестопалова С.В. и Молчановой О.В.
+    </p>
+    <div class="analisys-section-desktop_text-wraper">
+      <div class="row1">
+        <p class="row1-par">Статистическое исследование 2000<br> супружеских пар с давностью <br>заключения брака более 25-и лет</p>
+        <p class="row1-par">Анализ баз данных увольнений <br>в Санкт-Петербургском <br>политехническом университете</p>
+        <p class="row1-par">Анализ баз данных конфликтных <br>взаимодействий Центра подготовки <br>космонавтов института летных <br>испытаний в г. Жуковском</p>
+      </div>
+      <div class="row2">
+        <p class="row2-par">А также личный опыт анализа <br> взаимоотношений — более 1000 пар</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="analisys-section-desktop_table">
+    <div class="arrow2"></div>
+  <p>  Посмотрите таблицу % разводов с учетом пола и знака зодиака</p>
+</div>
+  <div class="main-section_button analisys-btn">
+    <p>посмотреть</p>
+    <button>
+      <div class="circle analisys-circle"></div>
+      <div class="arrow"></div>
+    </button>
+  </div>
+</section>
+
+<section class="analisys-section-mobile" >
+
+  <div class="analisys-section-mobile_circle-contaniner">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+  </div>
+  
+  <div class="mainsection-mobile_forwho analisys-margin">
+    <h2>В основе анализа</h2>
+    <div class="mainsection-mobile_forwho-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+    </div>
+  
+    <div class="analisys-section-mobile_text">
+      <p class="main-paragraph">Авторская концепция <br>Шестопалова С.В. и Молчановой О.В.
+      </p>
+      <div class="analisys-section-mobile_text-wraper">
+        <div class="row1">
+          <ul>
+            <li> <span> Статистическое исследование 2000 супружеских пар с давностью заключения брака более 25-и лет</span></li>
+            <li><span>Анализ баз данных увольнений вСПбПУ</span></li>
+            <li><span>База конфликтных взаимодействий ЦПКИЛИ г. Жуковский</span></li>
+          </ul>
+        </div>
+        <div class="row2">
+          <p class="row2-par">А также личный опыт анализа  взаимоотношений — более 1000 пар</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="analisys-section-mobile_table">
+      <div class="arrow2"></div>
+    <p>Посмотрите таблицу % разводов <br>с учетом пола и знака зодиака</p>
+    </div>
+    <div class="mainsection-mobile_button bottom-btn" id="mobile-analisys-btn">
+      <p class="main-btn-par">Посмотреть</p>
+        <button >
+          <div class="circle analisys-circle"></div>
+          <div class="arrow"></div>
+        </button>
+    </div>
+  </section>
+
+
+
+<!-------------------SECTION ORDER------------------->
+
+<section class="order-section" id="order-section">
+
+  <div class="get-section_header">
+    <h2>Как заказать услугу</h2>
+    <div class="get-section_header-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+
+  <div class="mainsection-mobile_forwho order-margin">
+    <h2>Как заказать услугу</h2>
+    <div class="mainsection-mobile_forwho-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+    </div>
+
+  <div class="order-section_steps">
+    <div class="order-section_steps-img"></div>
+    <div class="order-section_steps-text">
+      <div class="text-wraper"> 
+        <h3>1</h3>
+        <p> Отправьте данные рождения </p>
+      </div>
+      <div class="text-wraper">
+        <h3>2</h3>
+        <p>Получите ответ о сроках, стоимости и форме</p>
+      </div>
+      <div class="text-wraper">
+        <h3>3</h3>
+        <p>Оплатите и пройдите консультацию</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-section_button send-data-btn">
+    <p>отправить данные</p>
+    <button>
+      <div class="circle"></div>
+      <div class="arrow"></div>
+    </button>
+  </div>
+
+  <div class="mainsection-mobile_button send-data-btn" >
+    <p class="main-btn-par">отправить <br>данные</p>
+      <button >
+        <div class="circle"></div>
+        <div class="arrow"></div>
+      </button>
+  </div>
+</section>
+
+<!-------------------SECTION ABOUT ME------------------->
+<section class="about-section" id="about-section">
+
+<div class="about-section_circle-container">
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+  <div class="circle3"></div>
+</div>
+  
+  <div class="about-section_line"></div>
+  <div class="about-section_line-mobile"></div>
+
+  <div class="get-section_header about-margin">
+    <h2>Обо мне</h2>
+    <div class="get-section_header-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+
+  <div class="mainsection-mobile_forwho about-margin">
+    <h2>Обо мне</h2>
+    <div class="mainsection-mobile_forwho-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+
+  <div class="about-section_wraper">
+    <div class="about-section_wraper-img"> <img src="media/photo/2small.png" alt="Алексей_Котенко_photo2"> </div>
+    <div class="about-section_wraper-text">
+      <h2>Алексей Котенко</h2>
+      <ul>
+        <li> <span> Астролог, организатор и преподаватель Школы Астрологии Шестопалова </span></li>
+        <li> <span>42 года, в браке, 3 детей</li>
+        <li> <span>Высшее астрологическое, психологическое и юридическое образование </span></li>
+        <li> <span>12 лет практики по консультированию в вопросах совместимости <br> (более 1000 пар) </span></li>
+        <li> <span>Эксперт-астролог на канале 1+1 в проекте «Свадьба в слепую» (2, 3 сезон) </span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-------------------SECTION FEEDBACK------------------->
+
+<section class="feedback-section" id="feedback-section">
+
+  <div class="get-section_header">
+    <h2>Отзывы</h2>
+    <div class="get-section_header-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+
+  <div class="mainsection-mobile_forwho feedback-margin">
+    <h2>Отзывы</h2>
+    <div class="mainsection-mobile_forwho-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+
+  <div class="swiper-container">
+
+    <!--  Desktop swiper -->
+    <div class="swiper desktop">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide center"> <img src="media/feedbacks/Phone1.png" alt="testimonial1"> </div>
+        <div class="swiper-slide center"><img src="media/feedbacks/Phone2.png" alt="testimonial2"> </div>
+        <div class="swiper-slide center"><img src="media/feedbacks/Phone3.png" alt="testimonial3"> </div>
+        <div class="swiper-slide center"><img src="media/feedbacks/Phone4.png" alt="testimonial4"> </div>
+        <div class="swiper-slide center"><img src="media/feedbacks/Phone6.png" alt="testimonial5"> </div>
+      </div>
+    </div>
+
+    <!--  Mobile swiper -->
+    <div class="swiper mobile">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide center"> <img src="media/feedbacks/Phone1.png" alt="testimonial1"> </div>
+        <div class="swiper-slide center"><img src="media/feedbacks/Phone2.png" alt="testimonial2"> </div>
+        <div class="swiper-slide center"><img src="media/feedbacks/Phone3.png" alt="testimonial3"> </div>
+        <div class="swiper-slide center"><img src="media/feedbacks/Phone4.png" alt="testimonial4"> </div>
+        <div class="swiper-slide center"><img src="media/feedbacks/Phone6.png" alt="testimonial5"> </div>
+      </div>
+    </div>
+  </div>
+  
+<div class="feedback-section_btn-container">
+  <div class="prev-btn previous-swiper">
+    <div class="prev-btn_circle"></div>
+    <div class="prev-btn_arrow"></div>
+  </div>
+  <div class="prev-btn next-swiper">
+    <div class="prev-btn_circle"></div>
+    <div class="prev-btn_arrow"></div>
+  </div>
+</div>
+
+</section>
+
+<!-------------------SECTION QUESTIONS------------------->
+<section class="question-section">
+  
+  <div class="question-section_circle-container">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+  </div>
+
+  <div class="get-section_header question-header">
+  <h2>Остались вопросы?<br>Задавайте!</h2>
+  <div class="get-section_header-circles">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  </div>
+  </div>
+
+  <div class="mainsection-mobile_forwho question-margin">
+    <h2>Остались вопросы?<br>Задавайте!</h2>
+    <div class="mainsection-mobile_forwho-circles">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+    </div>
+  </div>
+
+  <form class="question-section_form-desktop" action="#">
+    <div class="question-section_form-desktop-img1"></div>
+    <div class="question-section_form-desktop-img2"></div>
+    <input type="text" id="question-desktop-name" name="questionquestion-desktop-name" placeholder="Введите имя" required>
+    <input type="tel" id="question-desktop-phone" name="question-desktop-phone" placeholder="Введите номер телефона" required>
+    <input type="email" id="question-desktop-email" name="question-desktop-email" placeholder="Введите e-mail" required>
+    <textarea rows="4" name="question-desktop-message" id="question-desktop-message" placeholder="Задайте вопрос"></textarea>
+
+    <div class="main-section_button">
+      <p>отправить</p>
+      <button type="submit">
+        <div class="circle"></div>
+        <div class="arrow"></div>
+      </button>
+    </div>
+    
+    <div class="question-section_form-desktop-agreement">
+      <input type="checkbox" id="agreement" name="agreement" required>
+      <label for="agreement"> Даю согласие на обработку данных </label>
+    </div>
+
+  </form>
+
+  <form class="question-section_form-mobile" action="#">
+    <div class="question-section_form-mobile-img1"></div>
+    <div class="question-section_form-mobile-img2"></div>
+    <input type="text" id="question-mobile-name" name="question-mobile-name" placeholder="Введите имя" required>
+    <input type="tel" id="question-mobile-phone" name="question-mobile-phone" placeholder="Введите номер телефона" required>
+    <input type="email" id="question-mobile-email" name="question-mobile-email" placeholder="Введите e-mail" required>
+    <textarea rows="4" name="question-mobile-message" id="question-mobile-message" placeholder="Задайте вопрос"></textarea>
+
+    
+    <div class="mainsection-mobile_button bottom-btn question-form" id="main-order-btn">
+      <p class="main-btn-par">Отправить</p>
+        <button type="submit">
+          <div class="circle"></div>
+          <div class="arrow"></div>
+        </button>
+    </div>
+
+    <div class="question-section_form-mobile-agreement">
+      <input type="checkbox" id="agreement" name="agreement" required>
+      <label for="agreement"> Даю согласие на обработку данных </label>
+    </div>
+
+  </form>
+</section>
+
+<!-------------------FOOTER------------------->
+<footer class="main-footer-desktop">
+  <div class="main-footer-desktop_container">
+    <div class="main-footer-desktop_container-general-text">
+      <h3>Алексей Котенко</h3>
+      <p>Астролог, организатор и преподаватель<br>Школы Астрологии Шестопалова </p>
+    </div>
+    <nav class="main-footer-desktop_container-nav">
+      <div class="left"> 
+        <ul>
+          <li><a href="#top">Кому полезно</a></li>
+          <li><a href="#get-section">Вы получаете</a></li>
+          <li><a href="#analisys-section">В основе анализа</a></li>
+        </ul> 
+      </div>
+      <div class="rigth">
+        <ul>
+          <li><a href="#order-section">Как заказать услугу</a></li>
+          <li><a href="#about-section">Обо мне</a></li>
+          <li><a href="#feedback-section">Отзывы</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main-footer-desktop_container-phone">
+      <div class="main-footer-desktop_container-phone-button">
+        <p>Обратный звонок</p>
+        <button>
+          <div class="circle"></div>
+          <div class="arrow"></div>
+        </button>
+      </div>
+      <div class="main-footer-desktop_container-phone-content">
+        <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/20/000000/external-phone-phone-dreamstale-lineal-dreamstale.png"/>
+        <p>+38 (067) 548-29-43</p>
+      </div>
+    </div>
+  </div>
+  <div class="main-footer-desktop_line"></div>
+  <div class="main-footer-desktop_disclaimer">
+    <small class="disclaimer">Политика конфиденциальности</small>
+    <small>© Oleksii Kotenko 2022</small>
+
+    <div class="footer__confidential invisible">
+      <div class="footer__confidential-close-btn close-btn" ></div>
+      <h3>Дорогой Клиент!</h3>
+        <p>Пользуясь услугой по определению качества и перспективы отношений, Вы доверяете мне свою личную информацию. 
+        Я делаю все для обеспечения ее безопасности и, в то же время, предоставляю Вам возможность управлять своими данными.
+        <br>Я, Котенко Алексей, являюсь ФОП  и лично контролирую способ и порядок сбора персональной информации, а также храню и использую, полученные от Вас персональные данные в процессе оказания Вам услуг. 
+        <br>Сбору подлежат такие персональные данные как имя, телефон и мейл для контакта с Вами, а данные рождения - с целью оказания услуги по анализу совместимости. Без указанной информации услугу выполнить невозможно.
+        <br>Ваши данные, информация, предоставленные мне в рамках выполнения заказа, строго конфиденциальны и не могут быть переданы мною третьим лицам без Вашего согласия. 
+        Вы имеете право отозвать свое согласие на обработку данных в любой момент.</p></div>
+
+  </div>
+</footer>
+
+<footer class="main-footer-mobile">
+  <div class="main-footer-mobile_container">
+    <div class="main-footer-mobile_container-general-text">
+      <h3>Алексей Котенко</h3>
+      <p>Астролог, организатор и преподаватель<br>Школы Астрологии Шестопалова </p>
+    </div>
+    <nav class="main-footer-mobile_container-nav">
+      
+        <ul>
+          <li><a href="#main-header">Кому полезно</a></li>
+          <li><a href="#get-section">Вы получаете</a></li>
+          <li><a href="#analisys-section">В основе анализа</a></li>
+          <li><a href="#order-section">Как заказать услугу</a></li>
+          <li><a href="#about-section">Обо мне</a></li>
+          <li><a href="#feedback-section">Отзывы</a></li>
+        </ul>
+      
+    </nav>
+    <div class="main-footer-mobile_container-phone">
+      <div class="main-footer-mobile_container-phone-button" id="footer-mobile-btn">
+        <p>Обратный звонок</p>
+        <button>
+          <div class="circle"></div>
+          <div class="arrow"></div>
+        </button>
+      </div>
+      <div class="main-footer-mobile_container-phone-content">
+        <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/20/000000/external-phone-phone-dreamstale-lineal-dreamstale.png"/>
+        <p>+38 (067) 548-29-43</p>
+      </div>
+    </div>
+  </div>
+  <div class="main-footer-mobile_line"></div>
+  <div class="main-footer-mobile_disclaimer">
+    <small class="disclaimer">Политика конфиденциальности</small>
+    <small>© Oleksii Kotenko 2022</small>
+    <div class="footer__confidential invisible">
+      <div class="footer__confidential-close-btn close-btn" ></div>
+      <h3>Дорогой Клиент!</h3>
+        <p>Пользуясь услугой по определению качества и перспективы отношений, Вы доверяете мне свою личную информацию. 
+        Я делаю все для обеспечения ее безопасности и, в то же время, предоставляю Вам возможность управлять своими данными.
+        <br>Я, Котенко Алексей, являюсь ФОП  и лично контролирую способ и порядок сбора персональной информации, а также храню и использую, полученные от Вас персональные данные в процессе оказания Вам услуг. 
+        <br>Сбору подлежат такие персональные данные как имя, телефон и мейл для контакта с Вами, а данные рождения - с целью оказания услуги по анализу совместимости. Без указанной информации услугу выполнить невозможно.
+        <br>Ваши данные, информация, предоставленные мне в рамках выполнения заказа, строго конфиденциальны и не могут быть переданы мною третьим лицам без Вашего согласия. 
+        Вы имеете право отозвать свое согласие на обработку данных в любой момент.</p>
+    </div>
+
+
+  </div>
+</footer>
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
